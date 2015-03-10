@@ -1,0 +1,26 @@
+K:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\obj\x86\Debug\MidtermProject.csprojResolveAssemblyReference.cache
+K:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+K:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Images\Peg.xnb
+K:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Images\PlayerCircle.xnb
+K:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\MidtermProject.exe
+K:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\MidtermProject.pdb
+K:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\FarseerPhysics XNA.dll
+K:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\FarseerPhysics XNA.pdb
+K:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\FarseerPhysics XNA.xml
+K:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\obj\x86\Debug\MidtermProject.exe
+K:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\obj\x86\Debug\MidtermProject.pdb
+K:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Images\goalBox.xnb
+K:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Images\goalPost.xnb
+E:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Images\goalBox.xnb
+E:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Images\goalPost.xnb
+E:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Images\peg.xnb
+E:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Images\playerCircle.xnb
+E:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\MidtermProject.exe
+E:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\MidtermProject.pdb
+E:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\FarseerPhysics XNA.pdb
+E:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\FarseerPhysics XNA.xml
+E:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\obj\x86\Debug\MidtermProject.csprojResolveAssemblyReference.cache
+E:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\obj\x86\Debug\MidtermProject.exe
+E:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\obj\x86\Debug\MidtermProject.pdb
+E:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\FarseerPhysics XNA.dll
