@@ -64,3 +64,37 @@ E:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\bin\x86\Deb
 E:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Sounds\Sound Bank.xsb
 K:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Sounds\BadGoalSound.xnb
 K:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Sounds\NeutralGoalSound.xnb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Sounds\BadGoalSound.xnb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Sounds\NeutralGoalSound.xnb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Sounds\hit.xnb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Sounds\score.xnb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Images\goalBox.xnb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Images\goalPost.xnb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Images\peg.xnb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Images\playerCircle.xnb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Images\LongGoal.xnb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Images\LongWall.xnb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Images\wall.xnb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Images\goal.xnb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Images\WallPeg.xnb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Images\GoalMarkerBad.xnb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Images\GoalMarkerGood.xnb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Images\GoalMarkerGreat.xnb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Images\GoalMarkerHorrible.xnb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Images\GoalMarkerNeutral.xnb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Backgrounds\background1.xnb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Backgrounds\background2.xnb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Backgrounds\background3.xnb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Fonts\myFont.xnb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Sounds\PlinkoSoundEffects.xgs
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Sounds\Wave Bank.xwb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\Content\Sounds\Sound Bank.xsb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\MidtermProject.exe
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\MidtermProject.pdb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\FarseerPhysics XNA.dll
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\FarseerPhysics XNA.pdb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\bin\x86\Debug\FarseerPhysics XNA.xml
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\obj\x86\Debug\MidtermProject.csprojResolveAssemblyReference.cache
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\obj\x86\Debug\MidtermProject.exe
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProject\obj\x86\Debug\MidtermProject.pdb

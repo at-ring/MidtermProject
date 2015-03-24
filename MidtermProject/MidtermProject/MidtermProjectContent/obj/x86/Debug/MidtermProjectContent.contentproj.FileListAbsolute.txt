@@ -2,3 +2,5 @@ K:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProjectContent\obj\
 E:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProjectContent\obj\x86\Debug\MidtermProjectContent.contentprojResolveAssemblyReference.cache
 K:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProjectContent\obj\x86\Debug\Sounds\PlinkoSoundEffects.xml
 E:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\MidtermProjectContent\obj\x86\Debug\Sounds\PlinkoSoundEffects.xml
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProjectContent\obj\x86\Debug\MidtermProjectContent.contentprojResolveAssemblyReference.cache
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\MidtermProjectContent\obj\x86\Debug\Sounds\PlinkoSoundEffects.xml

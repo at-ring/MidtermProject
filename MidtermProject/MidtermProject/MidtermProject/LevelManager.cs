@@ -115,6 +115,11 @@ namespace MidtermProject
             LevelIndex = 0;
             LevelsRemaining = Levels.Length;
             UnloadCurrentLevel();
+            Levels[0] = new StaticLevel(this);
+            Levels[1] = new HorizontalLevel(this);
+            Levels[2] = new VerticalLevel(this);
+            Levels[3] = new DiagonalLevel(this);
+            Levels[4] = new ComboLevel(this); 
             LoadNextLevel();
         }
     }

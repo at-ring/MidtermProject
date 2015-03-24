@@ -150,6 +150,7 @@ namespace MidtermProject
                     ActorManager.ResetGame();
                     ScaleValue = 0.5f;
                     PreviousCameraPosition = new Vector3(0, 0, 0);
+                    cameraMatrix = Matrix.Identity;
                 }
                 // determine who should control the player circle
                 if (!PlayerTurn)
@@ -369,17 +370,17 @@ namespace MidtermProject
             spriteBatch.Begin();
                 if (playerScore > computerScore)
                 {
-                    spriteBatch.DrawString(font, "You win! with a score of " + playerScore + " to " + computerScore, new Vector2(((ThisGame.Window.ClientBounds.Width / 2) - 40), (ThisGame.Window.ClientBounds.Height / 2)), Color.Black);
+                    spriteBatch.DrawString(font, "You win! With a score of " + playerScore + " to " + computerScore, new Vector2(((ThisGame.Window.ClientBounds.Width / 2) - 60), (ThisGame.Window.ClientBounds.Height / 2)), Color.Black);
                 }
                 else if (computerScore > playerScore)
                 {
-                    spriteBatch.DrawString(font, "You lose! with a score of " + computerScore + " to " + playerScore, new Vector2(((ThisGame.Window.ClientBounds.Width / 2) - 40), (ThisGame.Window.ClientBounds.Height / 2)), Color.Black);
+                    spriteBatch.DrawString(font, "You lose! With a score of " + computerScore + " to " + playerScore, new Vector2(((ThisGame.Window.ClientBounds.Width / 2) - 60), (ThisGame.Window.ClientBounds.Height / 2)), Color.Black);
                 }
                 else
                 {
-                    spriteBatch.DrawString(font, "You tied! with a score of " + computerScore, new Vector2(((ThisGame.Window.ClientBounds.Width / 2) - 40), (ThisGame.Window.ClientBounds.Height / 2)), Color.Black);
+                    spriteBatch.DrawString(font, "You tied! With a score of " + computerScore, new Vector2(((ThisGame.Window.ClientBounds.Width / 2) - 60), (ThisGame.Window.ClientBounds.Height / 2)), Color.Black);
                 }
-                spriteBatch.DrawString(font, "Press 'R' to start a new game", new Vector2(((ThisGame.Window.ClientBounds.Width / 2) - 60), (ThisGame.Window.ClientBounds.Height / 2 + 20)), Color.Black);
+                spriteBatch.DrawString(font, "Press 'R' to start a new game", new Vector2(((ThisGame.Window.ClientBounds.Width / 2) - 80), (ThisGame.Window.ClientBounds.Height / 2 + 20)), Color.Black);
             spriteBatch.End();
         }
     }

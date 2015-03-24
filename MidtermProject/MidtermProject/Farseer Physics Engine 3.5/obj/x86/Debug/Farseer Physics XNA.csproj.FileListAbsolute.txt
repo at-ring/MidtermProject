@@ -16,3 +16,9 @@ K:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\Farseer Physics Engine 3.5
 K:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\Farseer Physics Engine 3.5\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 K:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\Farseer Physics Engine 3.5\obj\x86\Debug\FarseerPhysics XNA.dll
 K:\YR14-YR15\SP15\CS565\MidtermProject\MidtermProject\Farseer Physics Engine 3.5\obj\x86\Debug\FarseerPhysics XNA.pdb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\Farseer Physics Engine 3.5\bin\x86\Debug\FarseerPhysics XNA.dll
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\Farseer Physics Engine 3.5\bin\x86\Debug\FarseerPhysics XNA.pdb
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\Farseer Physics Engine 3.5\obj\x86\Debug\Farseer Physics XNA.csprojResolveAssemblyReference.cache
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\Farseer Physics Engine 3.5\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\Farseer Physics Engine 3.5\obj\x86\Debug\FarseerPhysics XNA.dll
+C:\Users\Ring\Desktop\MidtermProject\MidtermProject\MidtermProject\Farseer Physics Engine 3.5\obj\x86\Debug\FarseerPhysics XNA.pdb
