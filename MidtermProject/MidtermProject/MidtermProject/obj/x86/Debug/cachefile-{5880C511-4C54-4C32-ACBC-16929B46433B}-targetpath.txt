@@ -2,3 +2,24 @@ Content\Images\Peg.xnb
 Content\Images\PlayerCircle.xnb
 Content\Images\goalBox.xnb
 Content\Images\goalPost.xnb
+Content\Images\LongGoal.xnb
+Content\Images\LongWall.xnb
+Content\Images\wall.xnb
+Content\Images\goal.xnb
+Content\Images\WallPeg.xnb
+Content\Images\GoalMarkerBad.xnb
+Content\Images\GoalMarkerGood.xnb
+Content\Images\GoalMarkerGreat.xnb
+Content\Images\GoalMarkerHorrible.xnb
+Content\Images\GoalMarkerNeutral.xnb
+Content\Fonts\myFont.xnb
+Content\Sounds\hit.xnb
+Content\Sounds\score.xnb
+Content\Backgrounds\background1.xnb
+Content\Backgrounds\background2.xnb
+Content\Backgrounds\background3.xnb
+Content\Sounds\BadGoalSound.xnb
+Content\Sounds\NeutralGoalSound.xnb
+Content\Sounds\PlinkoSoundEffects.xgs
+Content\Sounds\Wave Bank.xwb
+Content\Sounds\Sound Bank.xsb

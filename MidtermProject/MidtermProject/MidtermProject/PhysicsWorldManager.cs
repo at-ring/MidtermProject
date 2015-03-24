@@ -22,7 +22,7 @@ namespace MidtermProject
 
         public PhysicsWorldManager()
         {
-            ThisWorld = new World(new Vector2(0f, 1.0f));
+            ThisWorld = new World(new Vector2(0f, 9.8f));
         }
 
         public static void UpdateWorld(GameTime gameTime)

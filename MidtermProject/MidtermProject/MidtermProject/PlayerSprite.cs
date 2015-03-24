@@ -18,56 +18,48 @@ namespace MidtermProject
 {
     class PlayerSprite : Actor
     {
-        private bool hasBeenReleased = false;
+        private Vector2 OriginalPosition { get; set; }
+        public bool HasBeenReleased { get; private set; }
 
         public PlayerSprite(Texture2D textureImage, Vector2 position, Point frameSize, Point currentFrame, Vector2 velocity, Vector2 scale)
             : base(textureImage, position, frameSize, currentFrame, velocity, scale)
         {
             ActorBody = BodyFactory.CreateCircle(ThisWorld, ConvertUnits.ToSimUnits((FrameSize.X * Scale.X) / 2), 10, new Vector2(ConvertUnits.ToSimUnits(DrawPosition.X), ConvertUnits.ToSimUnits(DrawPosition.Y)), ActorType.Player);
             ActorBody.BodyType = BodyType.Dynamic;
+            ActorBody.Restitution = .25f;
             ActorBody.Friction = 0f;
-            ActorBody.Restitution = 0f;
             ActorBody.OnCollision += OnCollision;
             PointValue = 0;
+            ActorBody.IgnoreGravity = true;
+            OriginalPosition = position;
+            HasBeenReleased = false;
         }
 
         public override void Update(GameTime gameTime)
         {
-            if (false)
-            {
-                KeyboardState keyboardState = Keyboard.GetState();
-                // move player sphere left if able
-                if (keyboardState.IsKeyDown(Keys.Left))
-                {
-                    BasePosition += new Vector2(-2, 0);
-                    DrawPosition += new Vector2(-2, 0);
-                    ActorBody.Position = new Vector2(ConvertUnits.ToSimUnits(DrawPosition.X), ConvertUnits.ToSimUnits(DrawPosition.Y));
-                }
-                // move player sphere right if able
-                else if(keyboardState.IsKeyDown(Keys.Right))
-                {
-                    BasePosition += new Vector2(2, 0);
-                    DrawPosition += new Vector2(2, 0);
-                    ActorBody.Position = new Vector2(ConvertUnits.ToSimUnits(DrawPosition.X), ConvertUnits.ToSimUnits(DrawPosition.Y));
-                }
-                // release player sphere
-                else if(keyboardState.IsKeyDown(Keys.Down))
-                {
-                    hasBeenReleased = true;
-                }
-                else
-                {
-                    return;
-                }
-            }
-            else
-            {
-                float displayX = ConvertUnits.ToDisplayUnits(ActorBody.Position.X);
-                float displayY = ConvertUnits.ToDisplayUnits(ActorBody.Position.Y);
-                BasePosition = new Vector2(displayX, displayY) + -OriginOffset;
-                DrawPosition = BasePosition + OriginOffset;
-                Rotation = ActorBody.Rotation;
-            }
+            float displayX = ConvertUnits.ToDisplayUnits(ActorBody.Position.X);
+            float displayY = ConvertUnits.ToDisplayUnits(ActorBody.Position.Y);
+            BasePosition = new Vector2(displayX, displayY) + -OriginOffset;
+            DrawPosition = BasePosition + OriginOffset;
+            Rotation = ActorBody.Rotation;
+        }
+
+        public void ResetPosition()
+        {
+            ActorBody.Awake = false;
+            ActorBody.IgnoreGravity = true;
+            HasBeenReleased = false;
+            BasePosition = OriginalPosition;
+            DrawPosition = BasePosition + OriginOffset;
+            ActorBody.Position = new Vector2(ConvertUnits.ToSimUnits(DrawPosition.X), ConvertUnits.ToSimUnits(DrawPosition.Y));
+        }
+
+        public void Release()
+        {
+            ActorBody.IgnoreGravity = false;
+            ActorBody.Awake = true;
+            ActorBody.Friction = 0;
+            HasBeenReleased = true;
         }
     }
 }

@@ -23,6 +23,7 @@ namespace MidtermProject
         {
             ActorBody = BodyFactory.CreateRectangle(ThisWorld, ConvertUnits.ToSimUnits(FrameSize.X * Scale.X), ConvertUnits.ToSimUnits(FrameSize.Y * Scale.Y), 100, new Vector2(ConvertUnits.ToSimUnits(DrawPosition.X), ConvertUnits.ToSimUnits(DrawPosition.Y)), ActorType.Wall);
             ActorBody.BodyType = BodyType.Static;
+            ActorBody.FixtureList[0].UserData = ActorType.Wall;
             ActorBody.Friction = 0f;
             ActorBody.Restitution = 0f;
             PointValue = 0;

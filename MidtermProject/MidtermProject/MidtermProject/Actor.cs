@@ -16,12 +16,12 @@ using FarseerPhysics.Common;
 
 namespace MidtermProject
 {
-    enum ActorType { Player, GoodGoal, BadGoal, GreatGoal, HorribleGoal, NeutralGoal, Peg, Wall };
+    enum ActorType { Player, GoodGoal, BadGoal, GreatGoal, HorribleGoal, NeutralGoal, Peg, Wall, None, GoalMarker };
 
     abstract class Actor
     {
         protected Texture2D TextureImage { get; set; }
-        protected Vector2 BasePosition { get; set; }
+        public Vector2 BasePosition { get; protected set; }
         protected Point FrameSize { get; set; }
         protected Point CurrentFrame { get; set; }
         protected Vector2 Velocity { get; set; }
@@ -32,6 +32,7 @@ namespace MidtermProject
         protected Body ActorBody { get; set; }
         protected World ThisWorld { get; private set; }
         protected int PointValue { get; set; }
+        public ActorType CollidedWith { get; set; }
 
         public Actor(Texture2D textureImage, Vector2 position, Point frameSize, Point currentFrame, Vector2 velocity, Vector2 scale)
         {
@@ -45,6 +46,7 @@ namespace MidtermProject
             OriginOffset = new Vector2(FrameSize.X / 2, FrameSize.Y / 2);
             DrawPosition = OriginOffset + BasePosition;
             ThisWorld = PhysicsWorldManager.ThisWorld;
+            CollidedWith = ActorType.None;            
         }
 
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
@@ -57,15 +59,8 @@ namespace MidtermProject
 
         public bool OnCollision(Fixture fixtureA, Fixture fixtureB, Contact contact)
         {
-            // remove the comments to see that the user data is null 
-            //if (!(fixtureA.Body.UserData is ActorType) && fixtureB.Body.UserData is ActorType)
-            //{
-            //    return true;
-            //}
             if (!GameManager.LevelEnd)
             {
-                Console.WriteLine(fixtureA.UserData);
-                Console.WriteLine(fixtureB.UserData);
                 ActorType colliderType = (ActorType)fixtureA.UserData;
                 ActorType collidedType = (ActorType)fixtureB.UserData;
                 if (colliderType == ActorType.Player)
@@ -73,37 +68,53 @@ namespace MidtermProject
                     switch (collidedType)
                     {
                         case ActorType.GoodGoal:
-                            GameManager.Score = PointValue;
-                            GameManager.LevelEnd = true;
+                            this.CollidedWith = collidedType;
+                            SoundManager.PlaySound("score");
                             return true;
                         case ActorType.GreatGoal:
-                            GameManager.Score = PointValue;
-                            GameManager.LevelEnd = true;
+                            this.CollidedWith = collidedType;
+                            SoundManager.PlaySound("score");
                             return true;
                         case ActorType.BadGoal:
-                            GameManager.Score = PointValue;
-                            GameManager.LevelEnd = true;
+                            this.CollidedWith = collidedType;
+                            SoundManager.PlaySound("BadGoalSound");
                             return true;
                         case ActorType.HorribleGoal:
-                            GameManager.Score = PointValue;
-                            GameManager.LevelEnd = true;
+                            this.CollidedWith = collidedType;
+                            SoundManager.PlaySound("BadGoalSound");
                             return true;
                         case ActorType.NeutralGoal:
-                            GameManager.Score = PointValue;
-                            GameManager.LevelEnd = true;
+                            this.CollidedWith = collidedType;
+                            SoundManager.PlaySound("NeutralGoalSound");
                             return true;
                         case ActorType.Wall:
-                            GameManager.Score = PointValue;
+                            SoundManager.PlaySound("hit");
                             return true;
                         case ActorType.Peg:
-                            GameManager.Score = PointValue;
+                            SoundManager.PlaySound("hit");
                             return true;
+                        case ActorType.None:
+                            return false;
+                        case ActorType.GoalMarker:
+                            return false;
                         default:
                             return true;
                     }
                 }
             }
             return false;
-        }    
+        }
+
+        public void MoveToNewLocation(Vector2 movementVector)
+        {
+            ActorBody.ApplyLinearImpulse(movementVector);
+            DrawPosition = new Vector2(ConvertUnits.ToDisplayUnits(ActorBody.Position.X), ConvertUnits.ToDisplayUnits(ActorBody.Position.Y));
+            BasePosition = DrawPosition + -OriginOffset;
+        }
+
+        public void DestroyPhysicsBody()
+        {
+            ActorBody.Dispose();
+        }
     }
 }

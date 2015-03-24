@@ -8,11 +8,6 @@ using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
-using FarseerPhysics.Dynamics;
-using FarseerPhysics.Factories;
-using FarseerPhysics;
-using FarseerPhysics.Dynamics.Contacts;
-using FarseerPhysics.Common;
 
 namespace MidtermProject
 {
@@ -29,6 +24,9 @@ namespace MidtermProject
         public Plinko()
         {
             graphics = new GraphicsDeviceManager(this);
+            graphics.IsFullScreen = false;
+            graphics.PreferredBackBufferHeight = 975;
+            graphics.PreferredBackBufferWidth = 1060;
             gameManager = new GameManager(this);
             Content.RootDirectory = "Content";
         }

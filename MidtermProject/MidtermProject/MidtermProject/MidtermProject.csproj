@@ -110,8 +110,13 @@
     <Compile Include="Actor.cs" />
     <Compile Include="ActorManager.cs" />
     <Compile Include="BackGroundManager.cs" />
+    <Compile Include="ComboLevel.cs" />
+    <Compile Include="DiagonalLevel.cs" />
     <Compile Include="GameManager.cs" />
+    <Compile Include="GoalMarkerSprite.cs" />
     <Compile Include="GoalSprite.cs" />
+    <Compile Include="HorizontalLevel.cs" />
+    <Compile Include="Level.cs" />
     <Compile Include="LevelManager.cs" />
     <Compile Include="PegSprite.cs" />
     <Compile Include="PhysicsWorldManager.cs" />
@@ -120,6 +125,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Plinko.cs" />
     <Compile Include="SoundManager.cs" />
+    <Compile Include="StaticLevel.cs" />
+    <Compile Include="VerticalLevel.cs" />
     <Compile Include="WallSprite.cs" />
   </ItemGroup>
   <ItemGroup>
